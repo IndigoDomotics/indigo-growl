@@ -1,5 +1,5 @@
 # Growl Plugin
-The Growl Plugin for Indigo allows you to send growl messages via a plugin action in the Actions UI tab. Before you try to use this plugin you need to install [[http://www.growl.info/|Growl]]. 
+The Growl Plugin for Indigo allows you to send growl messages via a plugin action in the Actions UI tab. Before you try to use this plugin you need to install [Growl](http://www.growl.info/). 
 
 **Note**: In versions prior to Indigo 7.5, it was included in the installer. In December of 2020, the [macOS Growl project was retired](https://growl.github.io/growl/), so we decided to remove it from the installer and place it in our open source repo. We will no longer maintain it, but it's now open source so anyone with changes are welcome to submit pull requests on the GitHub repo for it.
 
@@ -10,7 +10,7 @@ The Growl Plugin for Indigo allows you to send growl messages via a plugin actio
 
 The Growl Plugin creates 8 "notifications", which show up in the Growl preference pane. You can customize each of these notification types as desired in Growl. You can also change the names (and remove them entirely if desired) via the plugin's preferences:
 
-![growl_preferences](/Users/jay/Projects/IndigoDomoGitRepos/indigo-growl/growl_preferences.png)
+![growl_preferences](blob/main/growl_preferences.png)
 
 By leaving any of the notifications blank, you can remove that notification type. It won't show up in the action config dialog or in Growl as a notification type. 
 
@@ -18,7 +18,7 @@ By leaving any of the notifications blank, you can remove that notification type
 
 When you're ready to send a notification, you just add a "Notification" action and adjust it's options via the action config dialog:
 
-![growl_action_config](/Users/jay/Projects/IndigoDomoGitRepos/indigo-growl/growl_action_config.png)
+![growl_action_config](blob/main/growl_action_config.png)
 
 There are 5 fields for each notify action described below
 
@@ -32,7 +32,7 @@ There are 5 fields for each notify action described below
 
 #### Scripting Support
 
-As with all plugins, actions defined by this plugin may be executed by [Python scripts](https://www.indigodomo.com/docs/plugin_scripting_tutorial&#scripting_indigo_plugins). Here's the information you need to script the actions in this plugin.
+As with all plugins, actions defined by this plugin may be executed by [Python scripts](https://www.indigodomo.com/docs/plugin_scripting_tutorial#scripting_indigo_plugins). Here's the information you need to script the actions in this plugin.
 
 **Plugin ID**: com.perceptiveautomation.indigoplugin.Airfoil
 
