@@ -10,7 +10,7 @@ The Growl Plugin for Indigo allows you to send growl messages via a plugin actio
 
 The Growl Plugin creates 8 "notifications", which show up in the Growl preference pane. You can customize each of these notification types as desired in Growl. You can also change the names (and remove them entirely if desired) via the plugin's preferences:
 
-![growl_preferences](growl_preferences.png)
+![growl_preferences](https://github.com/IndigoDomotics/indigo-growl/raw/main/growl_preferences.png)
 
 By leaving any of the notifications blank, you can remove that notification type. It won't show up in the action config dialog or in Growl as a notification type. 
 
@@ -18,7 +18,7 @@ By leaving any of the notifications blank, you can remove that notification type
 
 When you're ready to send a notification, you just add a "Notification" action and adjust it's options via the action config dialog:
 
-![growl_action_config](growl_action_config.png)
+![growl_action_config](https://github.com/IndigoDomotics/indigo-growl/raw/main/growl_action_config.png)
 
 There are 5 fields for each notify action described below
 
