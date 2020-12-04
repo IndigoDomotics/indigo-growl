@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<PluginConfig>
+	<Field id="label0" type="label" fontSize="small" fontColor="darkgray">
+		<Label>The API that we use to communicate with Growl changed between v1.2 and v1.3 and isn't backwards compatible. Please select which version of Growl you're using.</Label>
+	</Field>
+	<Field id="growlVersion" type="Menu" defaultValue="Growl 1.3">
+		<Label>Which version is installed: </Label>
+		<List>
+			<Option value="1.2">Growl v1.2.x</Option>
+			<Option value="1.3">Growl v1.3, 2.0 or newer</Option>
+		</List>
+	</Field>
+	<Field id="label1" type="label" fontSize="small" fontColor="darkgray">
+		<Label>Adjust the notification types below as you wish. These will show up in the Growl preferences on the Notifications tab. You must specify a value for each notification type.</Label>
+	</Field>
+	<Field id="notification1" type="textfield" defaultValue="Attention Events">
+		<Label>Notification Type #1:</Label>
+	</Field>
+	<Field id="notification2" type="textfield" defaultValue="Device Events">
+		<Label>Notification Type #2:</Label>
+	</Field>
+	<Field id="notification3" type="textfield" defaultValue="General Events">
+		<Label>Notification Type #3:</Label>
+	</Field>
+	<Field id="notification4" type="textfield" defaultValue="Motion Events">
+		<Label>Notification Type #4:</Label>
+	</Field>
+	<Field id="notification5" type="textfield" defaultValue="Security Events">
+		<Label>Notification Type #5:</Label>
+	</Field>
+	<Field id="notification6" type="textfield" defaultValue="Sprinkler Events">
+		<Label>Notification Type #6:</Label>
+	</Field>
+	<Field id="notification7" type="textfield" defaultValue="Variable Changes">
+		<Label>Notification Type #7:</Label>
+	</Field>
+	<Field id="notification8" type="textfield" defaultValue="Weather Events">
+		<Label>Notification Type #8:</Label>
+	</Field>
+</PluginConfig>

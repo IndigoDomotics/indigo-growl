@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Actions>
+	<Action id="notify" uiPath="NotificationActions">
+		<Name>Growl Notify</Name>
+		<CallbackMethod>notify</CallbackMethod>
+		<ConfigUI>
+			<Field id="type" type="menu" defaultValue="notification1">
+				<Label>Type:</Label>
+				<List class="self" filter="" method="getNotificationList" />
+			</Field>
+			<Field id="title" type="textfield">
+				<Label>Title:</Label>
+			</Field>
+			<Field id="descString" type="textfield">
+				<Label>Description:</Label>
+			</Field>
+			<Field id="priority" type="menu" defaultValue="0">
+				<Label>Priority:</Label>
+				<List>
+					<Option value="-2">Very Low</Option>
+					<Option value="-1">Low</Option>
+					<Option value="0">Normal</Option>
+					<Option value="1">High</Option>
+					<Option value="2">Emergency</Option>
+				</List>
+			</Field>
+			<Field id="sticky" type="checkbox" defaultValue="false">
+				<Label>Sticky:</Label>
+				<Description>Should the notification stick (not fade)</Description>
+			</Field>
+			<Field id="sep1" type="separator" />
+			<Field id="label" type="label" fontSize="small" fontColor="darkgray">
+				<Label>In the Title and Description fields above, you can insert variable substitution markup which will substitute a variable value just before the action is run. Simply insert %%v:VARIABLEID%% anywhere in the text as many times as you want. VARIABLEID is the variable's numeric id as found in the UI. Likewise, you can substitute device state values by inserting %%d:DEVICEID:STATEKEY%% where DEVICEID is the device's numeric id and the STATEKEY is the state identifier as found in the doucumentation for built-in devices and in the Custom States tile in the control area of the Home screen for custom plugin devices.</Label>
+			</Field>
+			<Field id="description" type="textfield" hidden="true">
+				<Label></Label>
+			</Field>
+		</ConfigUI>
+	</Action>
+</Actions>
