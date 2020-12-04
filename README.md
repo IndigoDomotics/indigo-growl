@@ -5,7 +5,7 @@ The Growl Plugin for Indigo allows you to send growl messages via a plugin actio
 
 **Note**: Version 1.0.5 and later of this plugin supports both Growl 1.2 and 1.3. However, you must select the correct version in the plugin preferences because the Growl API is specific to the version being used. 
 
-#### Notification Types
+## Notification Types
 
 
 The Growl Plugin creates 8 "notifications", which show up in the Growl preference pane. You can customize each of these notification types as desired in Growl. You can also change the names (and remove them entirely if desired) via the plugin's preferences:
@@ -14,7 +14,7 @@ The Growl Plugin creates 8 "notifications", which show up in the Growl preferenc
 
 By leaving any of the notifications blank, you can remove that notification type. It won't show up in the action config dialog or in Growl as a notification type. 
 
-#### Notification Action
+## Notification Action
 
 When you're ready to send a notification, you just add a "Notification" action and adjust it's options via the action config dialog:
 
@@ -30,15 +30,15 @@ There are 5 fields for each notify action described below
 
 † - the title and description fields may contain substitution markup. So, as you can see from the example above, we're substituting the value of variable ID 867446802 in the title and variable ID 264884531 in the description. See [[variable_substitution|Substitutions]] for more information.
 
-#### Scripting Support
+## Scripting Support
 
 As with all plugins, actions defined by this plugin may be executed by [Python scripts](https://www.indigodomo.com/docs/plugin_scripting_tutorial#scripting_indigo_plugins). Here's the information you need to script the actions in this plugin.
 
 **Plugin ID**: com.perceptiveautomation.indigoplugin.Airfoil
 
-##### Action specific properties
+### Action specific properties
 
-###### Notify
+#### Notify
 
 **Action id**: notify
 
