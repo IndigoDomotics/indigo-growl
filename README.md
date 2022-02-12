@@ -1,4 +1,6 @@
 # Growl Plugin
+**Note**: Growl no longer works on macOS, this plugin is end-of-lifed.
+
 The Growl Plugin for Indigo allows you to send growl messages via a plugin action in the Actions UI tab. Before you try to use this plugin you need to install [Growl](http://www.growl.info/). 
 
 **Note**: In versions prior to Indigo 7.5, it was included in the installer. In December of 2020, the [macOS Growl project was retired](https://growl.github.io/growl/), so we decided to remove it from the installer and place it in our open source repo. We will no longer maintain it, but it's now open source so anyone with changes are welcome to submit pull requests on the GitHub repo for it.
